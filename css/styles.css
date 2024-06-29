@@ -473,7 +473,7 @@ nav {
 }
 
 .portfolio-item:hover .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-item-wrapper {
