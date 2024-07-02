@@ -366,8 +366,9 @@ nav {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  gap: 24px;
 }
 
 .team-item {
@@ -377,10 +378,6 @@ nav {
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-item:not(:last-child) {
-  margin-right: 24px;
 }
 
 .team-item-content {
@@ -438,7 +435,7 @@ nav {
 
 .portfolio-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 48px 24px;
